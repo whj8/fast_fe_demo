@@ -1,9 +1,12 @@
 import React from "react";
-import './app.css'
+import { Home } from "@/page/Home";
+import "./app.css";
 
 const App = () => {
   return (
-    <div>welcome!</div>
-  )
-}
-export default App
+    <div>
+      <Home />
+    </div>
+  );
+};
+export default App;
